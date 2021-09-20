@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Vorratsdatenspeicherung für Dummies</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/cccs.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Vorratsdatenspeicherung für Dummies</h1>
+					<p>
+					von und mit <a href="https://stefan.leibfarth.org">Stefan Leibfarth</a>
+					</p><br>
+					Link: t1p.de/jsmp
+				</section>
+
+				<section >
+					<h2>Übersicht</h2>
+					<ul style="text-align: left;">
+						<li>Woher kommt der Name</li>
+						<li>Geschichte</li>
+						<li>Gespeicherte Daten
+						<li>Umgehungsmöglichkeiten
+						<li>Kritik
+					</ul>
+				</section>
+
+				<section>
+					<h2>Definition</h2>
+					Speicherung von Daten auf Vorrat. <br>Wichtig: Verdachtsunabhängig, jeder ist betroffen!<br><br>
+					Offiziell :"Speicherpflicht und Höchstspeicherfrist für Verkehrsdaten"
+				</section>
+
+				<section>
+					<h2>Geschichte</h2>
+					<ul style="text-align: left;">
+						<li>1. Einführung: 2007
+						<li>Vom VVG 2010 Als Grundgesetztwidrig erklärt
+            <li>EU-Richtlinie: 2006
+            <li>Vom EuGH 2014 für Grundrechtswidrig erklärt
+						<li><a href="http://dip21.bundestag.de/dip21/btd/18/050/1805088.pdf">2. Einführung in D am 16.10.2015 beschlossen</a>
+						<li>Noch nicht in Kraft, Durchführungsverordnung fehlt
+				</section>
+
+				<section>
+					<h2>Wie wird die Notwendigkeit begründet</h2>
+					Provider speichern (ohnehin anfallende) Verbindungs- und Standortdaten oft zu kurz.<br>
+					Bei Anfrage von Behörden sind die Daten dann schon gelöscht.<br><br>
+				--> Schutzlücke
+				</section>
+
+				<section>
+					<h2>Was wird gespeichert</h2>
+					<img src="./resources/save.png">
+				</section>
+
+				<section>
+					<h2>Stadtortdaten bei Telefonaten und mobiler Internet-Nutzung</h2>
+						Zuordnung Handy <--> Funkzelle <br><br>
+						Speicherdauer: 4 Wochen<br><br>
+						Umgehbar durch: Flugzeugmodus
+				</section>
+
+				<section>
+					<h2>Wie oft verbindet sich ein Smartphone mit dem Internet</h2>
+							<li>Android: <a href="https://productforums.google.com/forum/#!topic/nexus/fslYqYrULto">28 Minuten</a>
+						  <li>iOS: ???
+					</section>
+
+
+				<section> <!-- Animation nach unten -->
+					<h2>Funkzelle</h2>
+					 <img src="./resources/cell.png">
+				</section>
+
+				<section>
+					<h2>Rufnummern, Zeit und Dauer aller Telefonate</h2>
+						<ul style="text-align: left;">
+							<li>Wer
+							<li>Wann
+							<li>Wo
+							<li>Wie lange
+							<li>Mit wem <br><br>
+						</ul>
+						Speicherdauer: 10 Wochen<br><br>
+						Umgehbar durch: Internet-Telefonie z.B. Signal
+				</section>
+
+				<section>
+					<h2>Rufnummern, Sende- und Empfangszeit aller SMS-Nachrichten</h2>
+					Speicherdauer: 10 Wochen<br><br>
+					Umgehbar durch: Messanger z.B. Signal
+				</section>
+
+				<section>
+					<h2>zugewiesene IP-Adressen aller Internetnutzer</h2>
+										<code class="hljs" data-trim contenteditable>62.91.65.143 <---> 217.150.155.10</code><br>
+					Speicherdauer: 10 Wochen<br><br>
+					Umgehbar durch: VPNs, Tor, ...
+				</section>
+
+				<section>
+					<h2>Zugriff auf gespeicherte Daten</h2>
+						<li>Bei schweren Straftaten
+						<li>Zur Gefahrenabwehr
+						<li>Unter Richtervorbehalt
+						<li>Bei der <a href="https://de.wikipedia.org/wiki/Telekommunikationsgesetz_%28Deutschland%29#Bestandsdatenauskunft">Bestandsdatenauskunft</a>
+					  <li>???
+				</section>
+
+				<section>
+					<h2>Kritik</h2>
+					<ul style="text-align: left;">
+						<li>Wirksamkeit nicht bisher nicht belegbar
+						<li>Keine Evaluierung geplant ???
+						<li>Täter können durch Planung umgehen
+						<li>Alibi konstruierbar
+						<li>Ausweitung in der Zukunft ("Daten sind doch vorhanden")
+					  <li>Daten bei den Providern nicht sicher
+					</ul>
+				</section>
+
+
+
+				<section>
+					<h2>Fragen??</h2>
+					<br>
+					<div align="center">
+					<h2>Kontakt:</h2>
+            Signal: +49 172 63 43 48 0<br><br>
+						E-Mail: stefan@leibfarth.org <br>
+						<span style="font-size:0.8em">PGP: 0xC1354426</span><br><br>
+						Am Sonntag sind Landtagswahlen!
+
+					</div>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
