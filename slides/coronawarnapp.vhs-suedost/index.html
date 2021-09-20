@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Die Corona-Warn-App</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/cccs.css" id="theme">
+		<link rel="stylesheet" href="css/theme/this_presentation.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1><span style="font-size:2em">Die Corona-Warn-App</span></h1>
+					<span style="font-size:0.6em">von</span><br>
+					<a href="https://stefan.leibfarth.org/">Stefan Leibfarth</a><br>
+					<span style="font-size:0.6em">am CyberMonday<br>
+						der vhs SüdOst</span><br>
+                    <span style="font-size:0.5em">12.04.2021</span>
+				</section>
+
+				<section>
+					<h2>Was ist der Chaos Computer Club e.V. (<a href="https://www.ccc.de">CCC</a>) ?</h2>
+					<div align="left" hspace=100000>
+					<ul>
+						<li>größte europäische HackerInnen-Vereinigung</li>
+						<li>Gründung: 1981
+						<li>Grundlage: <a href="https://ccc.de/de/hackerethik">Hackerethik</a>
+						<li>Vermittelnde im Spannungsfeld technischer und sozialer Entwicklungen
+						<li><a href="https://events.ccc.de/">Veranstaltungen</a>, Politikberatung, PMs, Publikationen, ...
+						<li>Regelmäßig als ExpertInnen beim BVerfG, BT-Ausschüssen, ...
+					</ul>
+					</div>
+					<br>
+					<p class="fragment">
+                        In Stuttgart:<br>
+						<a href="https://www.cccs.de/about/stammtisch/">Stammtische</a>, Vortragsreihe, Workshops, Cryptoparties, CmS...<br>
+                            Mehr auf <a href="http://www.cccs.de">www.cccs.de</a>
+					</p>
+				</section>
+
+				<section>
+					<h2>DISCLAIMER</h2>
+                                        Meinung des Referenten ist nicht notwendigerweise die des CCC(S)
+					<br>+<br>
+                                        App wird ständig weiter entwickelt, diese Präsention altert schnell<br>
+                                        <img src="https://www.rundschau-online.de/image/4767228/2x1/940/470/618e52d904de949af1bfd86eea865249/Cx/ron01v-hoeverstahl-fuehrung-spatenstich-gies-08-71-39451013-jpg.jpg" style="border:0px solid black" id="" width="90%"><br>
+                                        <span style="font-size:0.6em">Quelle: <a href="https://www.rundschau-online.de/image/4767228/2x1/940/470/618e52d904de949af1bfd86eea865249/Cx/ron01v-hoeverstahl-fuehrung-spatenstich-gies-08-71-39451013-jpg.jpg">Gies/Chr. Höver & Sohn</a></span>
+				</section>
+
+				<section>
+				<h2>Contact-Tracing allgemein</h2>
+                                <div align="left" hspace=100000>
+					<ul>
+						<li>Ziel: Infektionsketten unterbrechen
+						<li>Immerhoch: Handarbeit der lokalen Gesundheitsämter
+                        <li>Nachteil: Kontakte oft nicht namentlich bekannt (absichtlich und unabsíchtlich)
+					</ul>
+					</div>
+				</section>
+
+				<section>
+					<h2>Die Corona-Warn-App</h2>
+					<br><img src="resources/app.jpg" style="border:0px solid black" id="" width="90%"><br>
+                    <span style="font-size:0.6em">Quelle: <a href="https://www.bundesregierung.de/breg-de/themen/corona-warn-app">https://www.bundesregierung.de/breg-de/themen/corona-warn-app</a></span>
+                        
+				</section>
+				
+				<section>				
+				        <h2>Mögliche technische Umsetzung</h2>
+                            <div align="left" hspace=100000>
+                            Kontakt-Zuordnung mittels:<br>
+					        <ul>
+					        	<li>GPS
+					        	<li>Funkzellen
+                                <li>Ultraschall
+                                <li>Bluetooth (LE)
+				        	</ul>
+				        </div>  
+				</section>
+
+				<section>
+					<h2>Gretchenfrage</h2>
+                                        Wo findet die relevanten Datenverarbeitung statt?<br>
+					<img src="resources/zentral-dezentral.png" style="border:0px solid black" id="" width="90%"><br>
+                                        <span style="font-size:0.6em">Quelle: <a href="https://blockruption.com/2018/06/welches-problem-lost-die-blockchain/">blockruption.com</a></span>
+				</section>
+			    
+				<section>
+					<h2>Nichts geht ohne</h2>
+					<img src="resources/apple-google.jpg" style="border:0px solid black" id="" width="90%"><br>
+                    <span style="font-size:0.6em">Quelle: <a href="https://www.apple.com/de/newsroom/2020/04/apple-and-google-partner-on-covid-19-contact-tracing-technology/">Apple und Google arbeiten zusammen an Technologien zur Kontaktverfolgung bei COVID-19</a></span>
+				</section>
+
+                                <section>
+					<h2>Infrastruktur und App</h2>
+					<img src="resources/sap-telekom.jpg" style="border:0px solid black" id="" width="90%"><br>
+                    <span style="font-size:0.5em">Bild-Quelle: <a href="https://www.zdf.de/nachrichten/wirtschaft/coronavirus-warn-app-telekom-sap-100.html">ZDF</a></span>
+				</section>
+
+                <section>
+					<h2>App und Infrastruktur</h2>
+					<img src="resources/high-level-architecture.png" style="border:0px solid black" id="" width="70%"><br>
+                    <span style="font-size:0.6em">Vollständige Dokumenation auf <a href="https://github.com/corona-warn-app/cwa-documentation/">Github</a></span>
+				</section>
+
+                <section>
+					<h2>Open Source</h2>
+					<img src="resources/open-source.png" style="border:0px solid black" id="" width="90%"><br>
+				</section>
+
+				<section>
+					<h2>Funktionsweise</h2>
+                      <img src="resources/app1.gif" style="border:0px solid black" id="" height="90%"><br>
+                                        Gerät sendet wechselnde Zufallskennung<br>
+                                        <span style="font-size:0.5em">Bild-Quelle: <a href="https://www.google.com/covid19/exposurenotifications/">Google</a></span>
+				</section>
+
+				<section>
+					<h2>Funktionsweise</h2>
+                                        <img src="resources/app2.gif" style="border:0px solid black" id="" height="90%"><br>
+                                        Austausch im Hintergrund<br>
+                                        <span style="font-size:0.5em">Bild-Quelle: <a href="https://www.google.com/covid19/exposurenotifications/">Google</a></span>
+				</section>
+
+				<section>
+					<h2>Funktionsweise</h2>
+                                        <img src="resources/app3.gif" style="border:0px solid black" id="" height="90%"><br>
+                                        Abgleich der Infizierten-Codes mit eigener Liste<br>
+                                        <span style="font-size:0.5em">Bild-Quelle: <a href="https://www.google.com/covid19/exposurenotifications/">Google</a></span>
+				</section>
+
+				<section>
+					<h2>Funktionsweise</h2>
+                                        <img src="resources/app4.png" style="border:0px solid black" id="" height="90%"><br>
+                                        Bei Treffer wird NutzerIn benachrichtigt<br>
+                                        <span style="font-size:0.5em">Bild-Quelle: <a href="https://www.google.com/covid19/exposurenotifications/">Google</a></span>
+				</section>
+
+				<section>				
+				        <h2>Kritik</h2>
+                                        <div align="left" hspace=100000>
+					        <ul>
+					        	<li>Zu wenig positiv Getestete informieren ihre Kontakte (<a href="https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/WarnApp/Archiv_Kennzahlen/Kennzahlen_06112020.pdf?__blob=publicationFile">nur ca. 60%</a>)
+					        	<li>Immer noch nicht alle Labore angebunden (<a href="https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/WarnApp/Archiv_Kennzahlen/Kennzahlen_06112020.pdf?__blob=publicationFile">nur ca. 92%</a>)
+                                <li>Zu langsame Weiter-Entwicklung
+				        	</ul>
+				        </div>  
+				</section>
+
+				<section>				
+				        <h2>Ausblick</h2>
+				            Check-Ins für Meetings & Events
+                            <img src="resources/notifyme.jpg" style="border:0px solid black" id="" width="70%"><br>
+                            <span style="font-size:0.5em">Bild-Quelle: <a href="https://notify-me.ch">notify-me.ch</a></span>
+				</section>
+
+				<section>				
+				        <h2>Fazit</h2>
+                                        <div align="left" hspace=100000>
+					        <ul>
+					        	<li>Ziel: Schutz von Mitmenschen (wie Alltagsmaske)
+					        	<li>Nutzen: Vorhanden, aber keine App besiegt eine Pandemie
+                                <li>Nachteile: Vernachlässigbar
+                                <li>Installieren? Ihre Entscheidung!
+				        	</ul>
+				        </div>  
+				</section>
+
+				<section>
+					<h2>Danke für die Aufmerksamkeit</h2>
+					<br>
+					<div align="center">
+					    <h2>Kontakt:</h2>
+                        <a href="https://stefan.leibfarth.org/kontakt">https://stefan.leibfarth.org/kontakt</a>
+					</div>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				hideAddressBar: true,
+				slideNumber: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/tagcloud/tagcloud.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
