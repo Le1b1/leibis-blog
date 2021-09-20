@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+    <title>Anonym im Netz mit Tor</title>
+
+		<meta name="description" content="Anonymität mit Tor, Tails, Whonix">
+		<meta name="author" content="Dr. Stefan Schlott">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/cccs.css" id="theme">
+		<link rel="stylesheet" href="css/addons.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				
+				<section>
+					<h1>Anonym im Netz mit Tor</h1>
+					<p>
+						von und mit <a href="https://stefan.leibfarth.org">Stefan Leibfarth</a>
+					</p><br>
+					Dank an <a href="https://stefan.ploing.de/">Stefan Schlott</a> für große Teile dieser Präsentation <br><br>
+					Diese Präsentation: t1p.de/mi2f
+				</section>
+
+				<section>
+          <section data-background="img/anonymous.jpg">
+            <h2 class="textshadow">Warum anonym?</h2>
+            <aside class="notes" data-markdown>
+* Gegenfrage in die Runde: Sie sind hier… warum?
+            </aside>
+          </section>
+
+          <section>
+            <h3>Freier Netzzugang</h3>
+            <p><img class="noframe" src="img/Internet_Censorship_and_Surveillance_World_Map.svg" />
+            <p>Große Teile der Welt beeinflussen den Netzzugang
+            <aside class="notes" data-markdown>
+* Sperren „böser Seiten“: KiPo, illegale Inhalte
+* Anstößige Inhalte: Sog. Jugendschutz-Filter, Widerspruch zur Staatsreligion
+* Politische Zensur
+            </aside>
+          </section>
+
+          <section>
+            <h3>Freie Meinungsäußerung</h3>
+            <p>In repressiven Staaten
+            <p>Kanal für Whistleblower / Presseinformanten
+            <p class="fragment">…trifft inzwischen auch uns! (Vorratsdatenspeicherung)
+            <aside class="notes" data-markdown>
+VDS seit 12/2015 wieder gültig („Einführung einer Speicherpflicht und Höchstspeicherfrist für Verkehrsdaten“)
+* Standortdaten der Teilnehmer aller Mobiltelefonate bei Beginn des Telefonats (4 Wochen)
+* Standortdaten bei Beginn einer mobilen Internet­nutzung (4 Wochen)
+* Rufnummern, Zeit und Dauer aller Telefonate (10 Wochen)
+* Rufnummern, Sende- und Empfangszeit aller SMS-Nachrichten (10 Wochen)
+* zugewiesene IP-Adressen aller Internetnutzer sowie Zeit und Dauer der Internetnutzung (10 Wochen)
+            </aside>
+          </section>
+
+          <section>
+            <h3>Es geht niemanden etwas an!</h3>
+            <p><strike>Ich habe nichts zu verbergen!</strike>
+            <p>Jeder hat etwas zu verbergen.
+            <p>
+            <p>Illegal &ne; nicht für die Öffentlichkeit
+            <p>Gegenwart &ne; Zukunft
+            <aside class="notes" data-markdown>
+* Längst nicht alles, was man geheim halten möchte, ist illegal
+* Was heute gesellschaftlich ok ist, kann morgen schon ganz anders betrachtet werden
+* Gesetze ändern sich, Umzug in anderen Kulturkreis, etc.
+* Nach Anfangsverdacht: „Suche nach der Schuld“, plötzlich Rechtfertigungsdruck
+            </aside>
+          </section>
+
+          <section>
+            <p><img class="noframe" width="60%" src="img/snowden-tweet-661938964304166912.jpg" />
+            <p class="onlyprint"><a href="https://twitter.com/Snowden/status/661938964304166912">(Quelle)</a>
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+				</section>
+
+				<section>
+          <section data-background="img/internetmap-2007.jpg">
+            <h2 class="textshadow">Wie funktioniert das Internet?</h2>
+            <aside class="notes" data-markdown>
+* Hintergrundbild: Internet 2007 aus der Sicht eines großen US-Providers
+* Kurzer Überblick IPv4 mit Fokus auf identifizierende Eigenschaften
+            </aside>
+          </section>
+
+          <section>
+            <h3>IP-Adressen: Die Hausnummern des Netzes</h3>
+            <p>Vier Zahlen je 0-255, z.B. 193.7.177.238
+            <p class="fragment">Analog zur Polizeiobservation: Paket an Server ≙ Person betritt Mehrfamilienhaus
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+          <section>
+            <h3>Hop-by-Hop-Transport</h3>
+            <p>Transporteinheit: Pakete
+            <p>Keine Verschlüsselung der Inhalte
+            <p>Keine Anonymisierung von Absender oder Empfänger
+            <p>Transport von Router zu Router („nach dem Weg fragen“)
+            <aside class="notes" data-markdown>
+* Analogie: Schreibe Postkarten, wenn Postkarte voll, dann nächste
+* Erste Schritte: „Zum Briefkasaten“ (default route)
+* Tiefer im Netz (Backbone-Router): Post-Verteil-Zentren, welche alle Adressen kennen
+            </aside>
+          </section>
+
+          <section>
+            <h3>DNS: Das Telefonbuch</h3>
+            <p>Abbildung von lesbaren Namen (z.B. www.cccs.de) auf IP-Adressen
+            <p>DNS-Server kennen dieses Adressbuch
+            <p>Einige wenige DNS-Server im Rechner vorkonfiguriert
+            <p class="fragment">Ergo: Diese wissen sehr detailliert, welche Webseiten man anfragt
+            <p class="onlyprint">…bis hierher schön erklärt bei <a href="http://www.wdrmaus.de/sachgeschichten/sachgeschichten/internet.php5">der Sendung mit der Maus</a>
+            <aside class="notes" data-markdown>
+* Konfiguration DNS für Endanwender: Automatisch über Provider
+* DNS-Anfrage: Sieht natürlich wieder IP-Adresse!
+* Sicher auch ein Grund, weshalb Google DNS-Server anbietet
+            </aside>
+          </section>
+
+          <section>
+            <h3>Die eigentlichen Anwendungen</h3>
+            <p>Auf diesen Mechanismen aufsetzend: Transport- und Anwendungsprotokoll
+            <p>z.B. www, Mail, etc.
+            <p class="fragment">Diese können (anwendungsspezifisch) Details über Benutzer verraten
+            <aside class="notes" data-markdown>
+* www: Natürlich die eingegebenen Anmelde-Informationen
+* Aber: Javascript könnte im Hintergrund IP-Adresse abfragen und heimlich übertragen
+            </aside>
+          </section>
+				</section>
+
+				<section>
+          <section data-background="img/tor-title.jpg">
+            <h2 class="textshadow">Wie funktioniert Tor?</h2>
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+          <section>
+            <h3>Tor: The Onion Router</h3>
+            <p><img class="noframe" src="img/infographic-tor.jpg" />
+            <aside class="notes" data-markdown>
+* Zwei Einsatzszenarien: Anonymisierter Zugang zu normalen Internet-Diensten und Dienste im Tor-Netz
+* Idee: Zwischenstationen, um die tatsächlichen Absender und Empfänger zu verschleidern
+            </aside>
+          </section>
+
+          <section data-transition="slide-in fade-out">
+            <p><img class="noframe" src="img/tor-step1.svg" />
+            <aside class="notes" data-markdown>
+* Häufigster Usecase: Verbindung zu normalem Internet-Dienst
+* Beispiel: Client will Verbindung zu Server aufbauen
+            </aside>
+          </section>
+
+          <section data-transition="fade-in fade-out">
+            <p><img class="noframe" src="img/tor-step2.svg" />
+            <aside class="notes" data-markdown>
+* Wie Strohhalme ineinanderstecken
+* Wahl mehrerer Tor-Knoten (im Beispiel hier zwei)
+* Aufbau einer verschlüsselten Verbindung zum ersten
+            </aside>
+          </section>
+
+          <section data-transition="fade-in fade-out">
+            <p><img class="noframe" src="img/tor-step3.svg" />
+            <aside class="notes" data-markdown>
+* Zweiten Strohhalm durchschieben
+* Durch verschlüsselte Verbindung zweite Verbindung aufbauen
+* Zweiter Knoten sieht nur Absenderadresse des ersten Knotens
+* Erster Knoten kann Daten nicht mehr lesen (innerer Strohhalm)
+            </aside>
+          </section>
+
+          <section data-transition="fade-in slide-out">
+            <p><img class="noframe" src="img/tor-step4.svg" />
+            <aside class="notes" data-markdown>
+* Verbindung durch die beiden Strohhalme
+* Letzer Tor-Knoten: Exit-Knoten genannt
+            </aside>
+          </section>
+
+          <section>
+            <p><img class="noframe" src="img/tor-nodeview.svg" />
+            <aside class="notes" data-markdown>
+* Beobachter eines Tor-Knotens: Viele solche Verbindungen gleichzeitig
+            </aside>
+          </section>
+
+          <section>
+            <h3>Exit nodes</h3>
+            <ul>
+              <li>Der Ausgang ins „normale“ Netz
+              <li>IP-Adresse der Exit-Node = Vermeintliche Absende-Adresse
+              <li>Vorher unverschlüsselte Daten sind hier wieder unverschlüsselt!
+              <li>(und können von der Exit-Node gelesen werden)
+              <li>Problem in Deutschland: Störerhaftung (Betreiben einer Exit-Node will wohlüberlegt sein)
+              <li>Technisches Detail: Nicht jede Exit-Node läßt beliebige Daten nach draußen
+            </ul>
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+          <section>
+            <h3>Größe des Tor-Netzes</h3>
+            <p><img class="noframe" src="img/tor-bandwidth.svg" />
+            <aside class="notes" data-markdown>
+* Seit Snowden: Erheblicher Anstieg
+            </aside>
+          </section>
+
+          <section>
+            <h3>Onion-Services</h3>
+            <ul>
+              <li>Früher: Hidden Services genannt
+              <li>Dienste innerhalb des Tor-Netzes, nur hierüber erreichbar
+              <li>Erkennbar an .onion-Adresse
+              <li>Bauen analog zum Client einen Tunnel bis zu einem „Rendezvous-Punkt“
+            </ul>
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+          <section>
+            <h3>Onion-Services</h3>
+            <p><img class="noframe" src="img/tor-onionservice.svg" />
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+          <section>
+            <h3>Onion-Services</h3>
+            <p>Facebook: <a href="https://facebookcorewwwi.onion/">facebookcorewwwi.onion/</a>
+            <p>New York Times: <a href="https://www.nytimes3xbfgragh.onion/">nytimes3xbfgragh.onion/</a>
+            <p>Duck Duck Go: <a href="http://3g2upl4pq6kufc4m.onion/">3g2upl4pq6kufc4m.onion/</a>
+            <p>SecureDrop bei 'The Intercept': <a href="http://intrcept32ncblef.onion/">intrcept32ncblef.onion/</a>
+            <p><a href="https://onionshare.org/">OnionShare</a>
+            <div class="fragment">
+              <hr>
+              <p>Onion-Name dient gleichzeitig der Überprüfung der Verschlüsselung
+              <p>Verhindert Abhören der Verbindung
+            </div>
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+          <section>
+            <h3>Was anonymisiert Tor?</h3>
+            <table>
+              <tr><td><center>✓<td>Absender-IP-Adresse
+              <tr><td><center>(✓)<td>DNS-Anfragen
+              <tr><td><center>-<td>Anwendungsprotokoll (das übernimmt z.B. TLS)
+            </table>
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+          <section>
+            <h3>Funktioniert Tor?</h3>
+            <p>Mächtige Gegner wie NSA mit umfassender Verkehrsdaten-Analyse
+            <p>Bis dato <strike>keine Hinweise</strike> ein Hinweis auf einen erfolgreichen Angriff (<a href="https://blog.torproject.org/blog/tor-security-advisory-relay-early-traffic-confirmation-attack/">Sommer 2014, erkannt, Tor verbessert</a>)
+            <p>Alle bekannten Fälle: Fehler in der Operational Security
+            <aside class="notes" data-markdown>
+* Angriff: [CMU (Carnegie-Mellon-University) mit FBI gegen Silk Road 2.0](https://blog.torproject.org/blog/did-fbi-pay-university-attack-tor-users)
+            </aside>
+          </section>
+				</section>
+
+				<section>
+          <section>
+            <h2>Die Tor Browser</h2>
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+          <section>
+            <h3>Die Tor Browser</h3>
+            <p>Die einfachste Möglichkeit zur Tor-Nutzung
+            <p>Tor-Zugangssoftware plus passend eingerichteter Browser
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+          <section>
+            <h3>Download für den Laptop / Desktop</h3>
+            <p><a href="https://www.torproject.org/projects/torbrowser.html">https://www.torproject.org/projects/torbrowser.html</a>
+            <p>Für ernsthafte Anforderungen:<br>Korrektheit des Downloads prüfen
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+          <section>
+            <h3>Download für Smartphones</h3>
+            <p> <a href="https://play.google.com/store/apps/details?id=org.torproject.android&hl=de"><img src="img/orbot.png" style="height:400px;"></a> 
+                <a href="https://play.google.com/store/apps/details?id=info.guardianproject.orfox"><img src="img/orfox.png" style="height:400px;"></a>
+                <a href="https://itunes.apple.com/de/app/onion-browser/id519296448"><img src="img/onionbrowser.jpg" style="height:400px;"></a>
+             <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+          <section>
+            <h3>Warum reicht Tor allein nicht?</h3>
+            <p>Tor allein verschleiert nur die IP-Adresse
+            <p>Tor Browser: Namensauflösung (DNS) nur über Tor
+            <p>Tor Browser: Speziell auf Anonymität angepaßt
+            <ul>
+              <li>IP sonst über Javascript herausfindbar
+              <li>Verschleiern von Systeminformationen (Bildschirmgröße, Betriebssystem, etc.)
+              <li>Hinweise bei ungeschicktem Verhalten (z.B. Vollbild)
+            </ul>
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+				</section>
+
+				<section>
+          <section>
+            <h2>TAILS - The Amnesic Incognito Livesystem</h2>
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+          <section>
+            <h3>TAILS - The Amnesic Incognito Livesystem</h3>
+            <p>Vorkonfiguriertes Betriebssystem
+            <p>Start von CD oder USB-Stick
+            <p>Hilfreich, wenn man dem System sonst nicht vertraut
+            <p>Hinterläßt auf dem System keinerlei Spuren/Daten
+            <ul>
+              <li>Festplatte wird nicht angetastet
+              <li>Beim Herunterfahren: RAM wird gelöscht
+            </ul>
+            <aside class="notes" data-markdown>
+* Beispiel: Internetcafe
+            </aside>
+          </section>
+
+          <section>
+            <h3>Download</h3>
+            <p><a href="https://tails.boum.org/index.de.html">https://tails.boum.org/index.de.html</a>
+            <p>Webseite: Detaillierter Assistent zur Installation und Prüfung
+            <p><center><img class="noframe" width="60%" src="img/screenshot-tails-download.png"></center>
+            <aside class="notes" data-markdown>
+* Download-Prüfung: Firefox-Addon oder PGP-Signatur
+* Grund für Details: Trifft Leute, die möglicherweise schon Verfolgung ausgesetzt sind
+            </aside>
+          </section>
+
+          <section>
+            <h3>Anwendungen</h3>
+            <p>Tor-Zugangssoftware
+            <p>Passend eingerichteter Browser (wie Tor Browser Bundle)
+            <p>Passend eingerichtetes Chat-Programm
+            <p>Office-Anwendung, etc.
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+          <section>
+            <h3>Optional: Daten speichern</h3>
+            <p>Bei Installation auf USB-Stick: Verbleibender Platz kann optional zum Speichern von Daten genutzt werden
+            <p>Datenbereich mit Passwort verschlüsselt
+            <p>Je nach eigener Situation: Potentiell gefährlich, da man nun (vermeintlich?) Daten mit sich herumträgt
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+				</section>
+
+				<section>
+          <section>
+            <h2>Fazit</h2>
+            <p>Verwendung von Tor ist einfach - keine Ausreden mehr!
+            <p>Tool-Wahl je nach persönlicher Sicherheitsanforderung
+            <p>Tor ist durchaus fix
+            <p>Tor ist für jedermann
+            <p>Verwendung von Tor hilft denen,<br>die wirklich darauf angewiesen sind
+            <aside class="notes" data-markdown>
+            </aside>
+          </section>
+
+		  <section>
+			<h2>Äni kweschtschens?</h2>
+			    Diese Präsentation: t1p.de/mi2f<br><br>
+				<div align="center">
+			<h2>Kontakt:</h2>
+                Signal: +49 172 63 43 48 0<br><br>
+				E-Mail: stefan@leibfarth.org <br>
+				<span style="font-size:0.6em">PGP: F8FC B504 087A C78B 1462 7894 E5CE BB2A C135 4426</span>
+			</div>
+		  </section>
+
+				<section>
+
+				</section>
+
+          <section>
+            <h3>Bildquellen</h3>
+            <ul>
+              <li><a href="https://www.flickr.com/photos/boze3000/6777403883/">Anonymous Protest</a> (CC) by-nd-sa Yann Beauson
+              <li><a href="https://commons.wikimedia.org/wiki/File:Internet_Censorship_and_Surveillance_World_Map.svg">Internet Censorship and Surveillance World map</a> CC0 Wikimedia
+              <li><a href="http://javiergs.com/2010/09/blogworld-internet-topology/">World Internet Topology (2007)</a> by AT&amp;T
+            </ul>
+          </section>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
