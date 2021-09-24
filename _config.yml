@@ -24,7 +24,7 @@ defaults:
       image: /assets/logo.png
 
 # Build settings
-source: /var/www/nextcloud/data/Stefan/files/leibis_blog/
+source: .
 markdown: kramdown
 encoding: utf-8
 locale: de_DE
