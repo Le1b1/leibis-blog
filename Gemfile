@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-gem "jekyll", "3.9.0"
+gem "jekyll", "3.9.1"
 
 gem "minima", :github => 'jekyll/minima', :ref => '3cdd14d'
 
