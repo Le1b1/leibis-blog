@@ -1,0 +1,60 @@
+title: Leibis Blog
+# author: 
+#   name: Stefan Leibfarth
+description: Persönliches Blog von Stefan Leibfarth
+url: https://stefan.leibfarth.org
+
+show_excerpts: true
+
+minima:
+  date_format: "%d.%m.%Y"
+  skin: classic
+
+  social_links:
+#    twitter: leibi_
+    github: le1b1
+    mastodon:
+      - username: leibi
+        instance: chaos.social
+
+defaults:
+  -
+    values:
+      author: Leibi
+      image: /assets/logo.png
+
+# Build settings
+source: /var/www/nextcloud/data/Stefan/files/leibis_blog/
+markdown: kramdown
+encoding: utf-8
+locale: de_DE
+theme: minima
+timezone: Europe/Berlin
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+#  - jekyll-srcset
+include:
+  - _pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - /slides
+keep_files:
+  - assets
+permalink: /posts/:year-:month-:day-:title/
+excerpt_separator: <!--more-->
+
+header_pages:
+ -  _pages/kategorien.md
+ -  _pages/vortraege-presse.md
+ -  _pages/impressum-kontakt.md
+
+# pagination settings
+paginate: 10
+
+# tag settings
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
