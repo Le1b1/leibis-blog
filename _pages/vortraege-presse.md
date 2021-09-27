@@ -78,7 +78,7 @@ Dies ist eine unvollständige Liste meiner öffentlichen Aktivitäten und Erwäh
 
 - 2016-12-27 *Artikel:* "[ 'Funktioniert doch', läuft nicht mehr!](http://www.heute.de/themen-auf-chaos-communication-congress-propaganda-software-und-vorratsdatenspeicherung-46164116.html)" @ heute.de 
 
-- 2016-12-06 *Artikel:* "[Fünf goldene Regeln für die Sicherheit im Netz](http://www.swr.de/swr4/bw/tipps/sicher-im-internet/-/id=258208/did=18607994/nid=258208/1t3r2zj/)" @ SWR4 
+- 2016-12-06 *Artikel:* "[Fünf goldene Regeln für die Sicherheit im Netz](https://web.archive.org/web/20171011205733/https://www.swr.de/swr4/bw/tipps/sicher-im-internet/-/id=258208/did=18607994/nid=258208/1t3r2zj/)" @ SWR4 
 
 - 2016-12-06 *Radio-Interview:* "Sicherheit im Netz" @ SWR4 
 
