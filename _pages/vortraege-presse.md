@@ -84,7 +84,7 @@ Dies ist eine unvollständige Liste meiner öffentlichen Aktivitäten und Erwäh
 
 - 2016-11-19 *Expertengespräch:* "Meine Daten auf Android-Smartphones" @ CCCS "Meine Daten" [Mitschnitt]
 
-- 2016-11-16 *Artikel:* "Mythos Darknet – Ein digitaler Spielplatz für Kriminelle?" @ Landesmedienzentrum B-W [[Link](https://www.lmz-bw.de/medienbildung/aktuelles/mediaculture-blog/blogeinzelansicht/2016/mythos-darknet-ein-digitaler-spielplatz-fuer-kriminelle.html)] [[Video](https://www.youtube.com/watch?v=bas9zr2_akg)]
+- 2016-11-16 *Artikel:* "Mythos Darknet – Ein digitaler Spielplatz für Kriminelle?" @ Landesmedienzentrum B-W ~~[[Link](https://www.lmz-bw.de/medienbildung/aktuelles/mediaculture-blog/blogeinzelansicht/2016/mythos-darknet-ein-digitaler-spielplatz-fuer-kriminelle.html)]~~ [[Video](https://www.youtube.com/watch?v=bas9zr2_akg)]
 
 - 2016-11-98 *Vortrag:* "Das Darknet aus Sicht der Hackerethik" @ Landesmedienzentrum B-W [Präsentation]
 
