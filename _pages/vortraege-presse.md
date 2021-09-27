@@ -54,7 +54,7 @@ Dies ist eine unvollständige Liste meiner öffentlichen Aktivitäten und Erwäh
 
 - 2018-02-20 *Artikel:* Sieben Regeln für Schicherheit im Netz @ Südwest Presse Metzingen [Link TBD]
 
-- 2018-02-25 *Vortrag:* [Mein Handy kann mehr](http://z-filderstadt.de/?p=1670) @ [Jugendzentrum Z Filderstadt](http://z-filderstadt.de) [[Folien](https://stefan.leibfarth.org/slides/handy.z-filderstadt/)]
+- 2018-02-25 *Vortrag:* [Mein Handy kann mehr](https://web.archive.org/web/20180831004550/http://z-filderstadt.de/mein-handy-kann-mehr/) @ [Jugendzentrum Z Filderstadt](http://z-filderstadt.de) [[Folien](https://stefan.leibfarth.org/slides/handy.z-filderstadt/)]
 
 - 2018-02-15 *Video-Interview:* [Schüler-Interview](https://www.youtube.com/watch?v=c_rc6Cm6WvQ) @ Landesmedienzentrum B-W
 
