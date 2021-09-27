@@ -103,7 +103,7 @@ des Internets" @ Qualifizierungsseminar für Senior-Internet-HelferInnen in Bad 
 
 **2015**
 
-- 2015-11-14 *Vortrag:* "Darknets" @ [No-Spy Konferenz](https://no-spy.org/rueckblick/rueckblick-4-no-spy-konferenz/) [[Ankündigung](https://no-spy.org/2015/12/06/4nsk-darknets/)] [[Folien](https://le1b1.github.io/darknet.no-spy/)]
+- 2015-11-14 *Vortrag:* "Darknets" @ [No-Spy Konferenz](https://no-spy.org/rueckblick/rueckblick-4-no-spy-konferenz/) [[Ankündigung](https://no-spy.org/2015/12/06/4nsk-darknets/)]
 
 - 2015-09-02 *Expertengespräch:* "Datenschutzfreundliche Mailanbieter" @ CCCS "Meine Daten" [Mitschnitt]
 
