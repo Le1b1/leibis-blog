@@ -76,7 +76,7 @@ Dies ist eine unvollständige Liste meiner öffentlichen Aktivitäten und Erwäh
 
 **2016**
 
-- 2016-12-27 *Artikel:* "~~[ 'Funktioniert doch', läuft nicht mehr!](http://www.heute.de/themen-auf-chaos-communication-congress-propaganda-software-und-vorratsdatenspeicherung-46164116.html)~~" @ heute.de 
+- 2016-12-27 *Artikel:* "~~'Funktioniert doch', läuft nicht mehr!~~" @ heute.de 
 
 - 2016-12-06 *Artikel:* "[Fünf goldene Regeln für die Sicherheit im Netz](https://web.archive.org/web/20171011205733/https://www.swr.de/swr4/bw/tipps/sicher-im-internet/-/id=258208/did=18607994/nid=258208/1t3r2zj/)" @ SWR4 
 
@@ -84,7 +84,7 @@ Dies ist eine unvollständige Liste meiner öffentlichen Aktivitäten und Erwäh
 
 - 2016-11-19 *Expertengespräch:* "Meine Daten auf Android-Smartphones" @ CCCS "Meine Daten" [Mitschnitt]
 
-- 2016-11-16 *Artikel:* "Mythos Darknet – Ein digitaler Spielplatz für Kriminelle?" @ Landesmedienzentrum B-W ~~[[Link](https://www.lmz-bw.de/medienbildung/aktuelles/mediaculture-blog/blogeinzelansicht/2016/mythos-darknet-ein-digitaler-spielplatz-fuer-kriminelle.html)]~~ [[Video](https://www.youtube.com/watch?v=bas9zr2_akg)]
+- 2016-11-16 *Artikel:* "Mythos Darknet – Ein digitaler Spielplatz für Kriminelle?" @ Landesmedienzentrum B-W ~~[Link]~~ [[Video](https://www.youtube.com/watch?v=bas9zr2_akg)]
 
 - 2016-11-98 *Vortrag:* "Das Darknet aus Sicht der Hackerethik" @ Landesmedienzentrum B-W [Präsentation]
 
