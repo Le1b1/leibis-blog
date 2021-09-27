@@ -54,7 +54,7 @@ Dies ist eine unvollständige Liste meiner öffentlichen Aktivitäten und Erwäh
 
 - 2018-02-20 *Artikel:* Sieben Regeln für Schicherheit im Netz @ Südwest Presse Metzingen [Link TBD]
 
-- 2018-02-25 *Vortrag:* [Mein Handy kann mehr](http://z-filderstadt.de/?p=1670) @ [Jugendzentrum Z Filderstadt](http://z-filderstadt.de) [[Folien](https://stefan.leibfarth.org/slides/handy.z-filderstadt/)]
+- 2018-02-25 *Vortrag:* [Mein Handy kann mehr](https://web.archive.org/web/20180831004550/http://z-filderstadt.de/mein-handy-kann-mehr/) @ [Jugendzentrum Z Filderstadt](http://z-filderstadt.de) [[Folien](https://stefan.leibfarth.org/slides/handy.z-filderstadt/)]
 
 - 2018-02-15 *Video-Interview:* [Schüler-Interview](https://www.youtube.com/watch?v=c_rc6Cm6WvQ) @ Landesmedienzentrum B-W
 
@@ -76,15 +76,15 @@ Dies ist eine unvollständige Liste meiner öffentlichen Aktivitäten und Erwäh
 
 **2016**
 
-- 2016-12-27 *Artikel:* "[ 'Funktioniert doch', läuft nicht mehr!](http://www.heute.de/themen-auf-chaos-communication-congress-propaganda-software-und-vorratsdatenspeicherung-46164116.html)" @ heute.de 
+- 2016-12-27 *Artikel:* "~~'Funktioniert doch', läuft nicht mehr!~~" @ heute.de 
 
-- 2016-12-06 *Artikel:* "[Fünf goldene Regeln für die Sicherheit im Netz](http://www.swr.de/swr4/bw/tipps/sicher-im-internet/-/id=258208/did=18607994/nid=258208/1t3r2zj/)" @ SWR4 
+- 2016-12-06 *Artikel:* "[Fünf goldene Regeln für die Sicherheit im Netz](https://web.archive.org/web/20171011205733/https://www.swr.de/swr4/bw/tipps/sicher-im-internet/-/id=258208/did=18607994/nid=258208/1t3r2zj/)" @ SWR4 
 
 - 2016-12-06 *Radio-Interview:* "Sicherheit im Netz" @ SWR4 
 
 - 2016-11-19 *Expertengespräch:* "Meine Daten auf Android-Smartphones" @ CCCS "Meine Daten" [Mitschnitt]
 
-- 2016-11-16 *Artikel:* "Mythos Darknet – Ein digitaler Spielplatz für Kriminelle?" @ Landesmedienzentrum B-W [[Link](https://www.lmz-bw.de/medienbildung/aktuelles/mediaculture-blog/blogeinzelansicht/2016/mythos-darknet-ein-digitaler-spielplatz-fuer-kriminelle.html)] [[Video](https://www.youtube.com/watch?v=bas9zr2_akg)]
+- 2016-11-16 *Artikel:* "Mythos Darknet – Ein digitaler Spielplatz für Kriminelle?" @ Landesmedienzentrum B-W ~~[Link]~~ [[Video](https://www.youtube.com/watch?v=bas9zr2_akg)]
 
 - 2016-11-98 *Vortrag:* "Das Darknet aus Sicht der Hackerethik" @ Landesmedienzentrum B-W [Präsentation]
 
@@ -103,7 +103,7 @@ des Internets" @ Qualifizierungsseminar für Senior-Internet-HelferInnen in Bad 
 
 **2015**
 
-- 2015-11-14 *Vortrag:* "Darknets" @ [No-Spy Konferenz](https://no-spy.org/rueckblick/rueckblick-4-no-spy-konferenz/) [[Ankündigung](https://no-spy.org/2015/12/06/4nsk-darknets/)] [[Folien](https://le1b1.github.io/darknet.no-spy/)]
+- 2015-11-14 *Vortrag:* "Darknets" @ [No-Spy Konferenz](https://no-spy.org/rueckblick/rueckblick-4-no-spy-konferenz/) [[Ankündigung](https://no-spy.org/2015/12/06/4nsk-darknets/)]
 
 - 2015-09-02 *Expertengespräch:* "Datenschutzfreundliche Mailanbieter" @ CCCS "Meine Daten" [Mitschnitt]
 
