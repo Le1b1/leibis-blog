@@ -1,7 +1,7 @@
 ---
 title: Geänderte Onion-Adresse
 layout: post 
-image: /assets/
+image: /assets/2021/onion.png
 tags: 
 ---
 ![]({{ page.image }})
