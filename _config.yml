@@ -40,9 +40,9 @@ include:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - /slides
 keep_files:
   - assets
+  - slides
 permalink: /posts/:year-:month-:day-:title/
 excerpt_separator: <!--more-->
 
