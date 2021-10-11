@@ -16,4 +16,4 @@ jobs:
          ASSIGNEES: le1b1
          RECURSIVE: true
          TITLE: Broken link found (${URL})
-         EXCLUDED_KEYWORDS: https://haveibeenpwned.com/ threema://add?id=2NFWJMTE https://chaos.social/@Leibi http://puqjgh4zhtyv37qckzmsijl44reqdpitayiz3mvfbltaleaywtneyfad.onion/ http://leibixnj5y2tuj4zd67jmqlwhqi3t3ihbjxcmzd3jnrj7zp6yvc3ulid.onion
+         EXCLUDED_KEYWORDS: https://haveibeenpwned.com/ threema://add?id=2NFWJMTE https://chaos.social/@Leibi onion
