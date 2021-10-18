@@ -28,7 +28,7 @@ Dies ist eine unvollständige Liste meiner öffentlichen Aktivitäten und Erwäh
 
 - 2020-07-07 *Podiumsdiskussion:* [Polizeibefugnisse grenzenlos? Freiheitsrechte über Bord?](https://hotel-silber.de/?p=3144) @ Lern- und Gedenkort Hotel Silber 
 
-- 2020-06-18 *Vortrag:* [Die Corona-Warn-App](https://www.cccs.de/events/202006-corona-warnapp/) @ CCCS Vortragsreihe [[Audomittschnitt](https://www.cccs.de/data/events/202006-corona-warnapp/202006-corona-warnapp.mp3)] [[Folien](https://stefan.leibfarth.org/slides/coronawarnapp.stadtbib/)]
+- 2020-06-18 *Vortrag:* [Die Corona-Warn-App](https://www.cccs.de/events/202006-corona-warnapp/) @ CCCS Vortragsreihe [[Audomittschnitt](https://www.cccs.de/data/events/202006-corona-warnapp/202006-corona-warnapp.)] [[Folien](https://stefan.leibfarth.org/slides/coronawarnapp.stadtbib/)]
 
 - 2020-04-08 *Artikel:* [Apps für einen Gruppen-Videoanruf mit Familie und Freunden](https://www.stuttgarter-nachrichten.de/inhalt.zoom-houseparty-skype-und-co-apps-fuer-einen-gruppen-videoanruf-mit-familie-und-freunden.9c3625ef-7b6a-483f-a3cf-bb4d5904b1e7.html) @ Stuttgarter Nachrichten
 
@@ -72,7 +72,7 @@ Dies ist eine unvollständige Liste meiner öffentlichen Aktivitäten und Erwäh
 
 - 2017-05-16 *Podium:* Smarthome @ [360Akademie](http://www.360akademie.de/)
 
-- 2017-03-09 *Vortrag:* "WhatsApp & Co. - Messenger im Jahr 2017" @ CCCS [[Ankündigung](https://www.cccs.de/events/201703-messenger/)] [[Folien](/slides/whatsapp17/)] [[Mitschnitt](http://rss.stadtbuecherei-stuttgart-audio.de/pg/media/2017-03-10_20170309_cccs_messenger.mp3)]
+- 2017-03-09 *Vortrag:* "WhatsApp & Co. - Messenger im Jahr 2017" @ CCCS [[Ankündigung](https://www.cccs.de/events/201703-messenger/)] [[Folien](/slides/whatsapp17/)] [[Audio](http://mp3.3durch3.de/2017-03-10_20170309_cccs_messenger.mp3)]
 
 **2016**
 
