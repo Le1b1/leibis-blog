@@ -49,7 +49,7 @@ excerpt_separator: <!--more-->
 header_pages:
  -  _pages/kategorien.md
  -  _pages/vortraege-presse.md
- -  _pages/impressum-kontakt.md
+ -  _pages/kontakt.md
 
 # pagination settings
 paginate: 10
