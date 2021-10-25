@@ -1,5 +1,5 @@
 ---
-title: Kontakt + Impressum
+title: Kontakt
 date: 2017-01-20T11:47:42+00:00
 author: Leibi
 layout: page
