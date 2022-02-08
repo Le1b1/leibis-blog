@@ -12,4 +12,5 @@ group :jekyll_plugins do
    gem "jekyll-tagging", "~>1.1.0"
    gem "jekyll-seo-tag"
    gem "kramdown-parser-gfm"
+   gem "jekyll-sitemap"
 end
