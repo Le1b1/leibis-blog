@@ -34,7 +34,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-#  - jekyll-srcset
+  - jekyll-sitemap
 include:
   - _pages
 exclude:
