@@ -7,8 +7,8 @@ permalink: /kontakt/
 ---
 ![Stefan Leibfarth](/assets/SL.jpg){:height="200px" width="200px"}   
 Stefan Leibfarth   
-Karlstr. 15   
-73266 Bissingen a. d. Teck   
+Haldenstr. 11   
+72532 Gomadingen      
 E-Mail: [stefan@leibfarth.org](mailto:stefan@leibfarth.org) ([PGP-Key](/assets/pgp-key.txt))   
 Signal / Mobil: [+49 172 63 43 480](https://signal.me/#p/+491726343480) ([Signal-Sicherheitsnummer](/signal-safty-number/))   
 Threema: [2NFWJMTE](https://threema.id/2NFWJMTE)   
