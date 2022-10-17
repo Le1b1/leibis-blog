@@ -6,7 +6,7 @@ gem "jekyll", "3.9.2"
 gem "minima", :github => 'jekyll/minima', :ref => '3cdd14d'
 
 group :jekyll_plugins do
-   gem "jekyll-feed", "~>0.16.0"
+   gem "jekyll-feed", "~>0.17.0"
    gem "jekyll-paginate", "~>1.1.0"
 #   gem "jekyll-srcset2"
    gem "jekyll-tagging", "~>1.1.0"
