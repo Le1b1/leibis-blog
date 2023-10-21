@@ -11,11 +11,10 @@ minima:
   skin: classic
 
   social_links:
-    twitter: leibi_
     github: le1b1
     mastodon:
       - username: leibi
-        instance: chaos.social
+        instance: social.bau-ha.us
 
 defaults:
   -
