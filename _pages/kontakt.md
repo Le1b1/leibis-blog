@@ -11,7 +11,7 @@ Grüner Weg 32
 72766 Reutlingen      
 E-Mail: [stefan@leibfarth.org](mailto:stefan@leibfarth.org) ([PGP-Key](/assets/pgp-key.txt))   
 Signal / Mobil: [+49 172 63 43 480](https://signal.me/#p/+491726343480) ([Signal-Sicherheitsnummer](/signal-safty-number/))   
-Threema: [2NFWJMTE](https://threema.id/2NFWJMTE) 
+Threema: [2NFWJMTE](https://threema.id/2NFWJMTE)    
 Matrix: [@Leibi:matrix.org](https://matrix.to/#/@Leibi:matrix.org)   
 Amazon: [Wunschzettel](https://www.amazon.de/hz/wishlist/ls/2KQBY16MYR1VQ)
 
