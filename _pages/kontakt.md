@@ -12,7 +12,6 @@ Grüner Weg 32
 E-Mail: [stefan@leibfarth.org](mailto:stefan@leibfarth.org) ([PGP-Key](/assets/pgp-key.txt))   
 Signal / Mobil: [+49 172 63 43 480](https://signal.me/#p/+491726343480) ([Signal-Sicherheitsnummer](/signal-safty-number/))   
 Matrix: [@Leibi:matrix.org](https://matrix.to/#/@Leibi:matrix.org)   
-Amazon: [Wunschzettel](https://www.amazon.de/hz/wishlist/ls/2KQBY16MYR1VQ)
 
 ### Mich abmahnen? ###
 Sie haben eine Rechtsverletzung auf meiner Seite festgestellt? Dann wäre ich für einen Hinweis dankbar und beseitige die Ursache umgehend. Bei den geposteten Bilder habe ich stets die Quelle verlinkt. Sollten Sie doch gleich Ihren Anwalt auf mich hetzen oder selbst ein zweifelhafter Abmahnanwalt sein, stellen Sie sich auf ein langes Verfahren bis zur letzten Instanz ein.
