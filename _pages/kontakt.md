@@ -10,7 +10,7 @@ Stefan Leibfarth
 Grüner Weg 32   
 72766 Reutlingen      
 E-Mail: [stefan@leibfarth.org](mailto:stefan@leibfarth.org) ([PGP-Key](/assets/pgp-key.txt))   
-Signal: [leibi.81](https://signal.me/#eu/2+ShnqVqhCnN0atMV/QfeKraP9y7ZQMOURYT/0PAtrIKCia6/GJEUaOyo4s1/R5A)   
+Signal: [leibi.81](https://signal.me/#eu/2+ShnqVqhCnN0atMV/QfeKraP9y7ZQMOURYT/0PAtrIKCia6/GJEUaOyo4s1/R5A) ([Sicherheitsnummer](/signal-safty-number/))   
 Matrix: [@Leibi:matrix.org](https://matrix.to/#/@Leibi:matrix.org)   
 
 ### Mich abmahnen? ###
