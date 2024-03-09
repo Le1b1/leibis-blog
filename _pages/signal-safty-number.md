@@ -3,6 +3,6 @@ title: Signal Sicherheitsnummer
 layout: page
 permalink: /signal-safty-number/
 ---
-23701 09724 78106 56343 67296 81400 
+14281 17243 15064 27583 92910 70422 
 
-(letze Aktualisierung: 30.12.2017)
+(letze Aktualisierung: 09.03.2024)
