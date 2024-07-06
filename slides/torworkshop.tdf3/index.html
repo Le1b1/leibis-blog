@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Anonym im Netz mit Tor </title>
+		
+		<style>
+			li {text-align: left;}
+		</style>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/cccs.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Anonym im Netz mit Tor </h1>
+					<p>
+						von <a href="https://stefan.leibfarth.org">Stefan Leibfarth</a>
+					</p>					
+				</section>
+
+				<section>
+					<h2>Agenda</h2>
+					<div align="left">
+						<br>
+						<p class="fragment">Warum Tor?</p><br>						
+						<p class="fragment">Funktionsweise</p><br>
+						<p class="fragment">Die Tor Browser</p><br>
+						<p class="fragment">Nutzung</p><br>
+						<p class="fragment">Wo bekomme ich Hilfe?</p><br>
+						<p class="fragment">Hands on</p><br>
+					</div>
+				</section>
+
+				<section>
+					<h2>Warum Tor?</h2>
+					<ul>
+						<li>Umgeheung von Zensur
+						<li>Gezielte und massenhafte Überwachung durch Behörden
+						<li>Geschäftsmodell des Internets: Big data, Werbeindustrie, Tracking
+						<li>Überwachung durch Familie, Vorgesetzte und böse Menschen im Internet
+					</ul>	
+				</section>
+
+				<section>
+					<h2>Funktionsweise</h2>
+					<div align="center">
+						<img src="resources/How_tor_works.svg" style="border:0px solid black"><br>
+					</div>
+				</section>
+
+				<section>
+					<h2>Die Tor Browser</h2>
+					<div align="center">
+						<img src="resources/Desktop.png" width="800" style="border:0px solid black"><br>
+						Windows, MacOS und Linux - <a href="https://www.torproject.org/download/">Download</a>
+					</div>
+				</section>
+
+				<section>
+					<h2>Die Tor Browser</h2>
+					<div align="center">
+						<img src="resources/Android.png" width="500" style="border:0px solid black"><br>
+						Tor Browser für Android - <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser">Download (Google Play)</a>
+					</div>
+				</section>
+
+				<section>
+					<h2>Die Tor Browser</h2>
+					<div align="center">
+						<img src="resources/onionbrowser.png" width="500" style="border:0px solid black"><br>
+						Onion Browser (iOS) - <a href="https://apps.apple.com/de/app/onion-browser/id519296448">Download</a>
+					</div>
+				</section>
+				
+				<section>
+					<h2>Fragen?</h2>
+					Diese Präsentation: t1p.de/me4t<br>
+					<img src="resources/link_praesi.png" style="border:0px solid black">
+					<div align="center">
+					<h2>Kontakt:</h2>
+                        		Signal: <a href="https://signal.me/#eu/2+ShnqVqhCnN0atMV/QfeKraP9y7ZQMOURYT/0PAtrIKCia6/GJEUaOyo4s1/R5A">leibi.81</a  
+					</div>
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+				hideAddressBar: true,
+				slideNumber: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
