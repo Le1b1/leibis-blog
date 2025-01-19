@@ -14,7 +14,7 @@ minima:
     github: le1b1
     mastodon:
       - username: leibi
-        instance: social.bau-ha.us
+        instance: disobey.net
 
 defaults:
   -
