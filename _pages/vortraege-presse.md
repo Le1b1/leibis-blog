@@ -6,7 +6,11 @@ permalink: /vortraege-presse/
 
 Dies ist eine unvollständige Liste meiner öffentlichen Aktivitäten und Erwähnung:
 
-*Letztes Update: 20.01.2021*
+*Letztes Update: 03.10.2025*
+
+**2025**
+
+- 2025–10-04 *Artikel:* [Palantir-Software bei der Polizeiv Können BW-Unternehmen Alternativen liefern?](https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-umstrittene-palantir-software-bei-der-polizei-koennen-bw-unternehmen-alternativen-liefern-100.html) @ Tagesschau / SWR
 
 **2021**
 
