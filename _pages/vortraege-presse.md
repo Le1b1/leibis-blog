@@ -10,7 +10,7 @@ Dies ist eine unvollständige Liste meiner öffentlichen Aktivitäten und Erwäh
 
 **2026**
 
-- 2026-07-13 *Artikel* [FAQ: Welche Daten darf die Polizei erfassen und speicher?](https://www.swr.de/swraktuell/baden-wuerttemberg/welche-daten-polizei-100.html) @ SWR [[Backup](/assets/2026/Backup_2026-07-13.png)]
+- 2026-07-13 *Artikel* [FAQ: Welche Daten darf die Polizei erfassen und speichern?](https://www.swr.de/swraktuell/baden-wuerttemberg/welche-daten-polizei-100.html) @ SWR [[Backup](/assets/2026/Backup_2026-07-13.png)]
 
 **2025**
 
